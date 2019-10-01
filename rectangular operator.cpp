@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     char ch,ch1;
-    float a,area,peri,l,b,diagonal;
+    float a,area,perimeter,l,b,diagonal;
     cout << "Mathematical Operator World:" <<"\n";
     cout << "1.Area" <<"\n";
     cout << "2.Perimeter" <<"\n";
@@ -30,8 +30,8 @@ int main()
             case'1':area=l*b;
                     cout<<"Area Is : "<<area<<"\n";
                     break;
-            case'2':peri=2*(l+b);
-                    cout<<"Perimeter Is : "<<peri<<"\n";
+            case'2':perimeter=2*(l+b);
+                    cout<<"Perimeter Is : "<<perimeter<<"\n";
                     break;
             case'3':diagonal=sqrt((l*l)+(b*b));
                     cout<<"Diagonal Is : "<<diagonal<<"\n";
