@@ -3,11 +3,11 @@
 using namespace std;
 
 int main()
-{int num,rem;
+{int number,remainder;
     cout << "Enter a number:" ;
-    cin>>num;
-    rem=num%2;
-    if(rem==0)
+    cin>>number;
+    remainder=number%2;
+    if(remainder==0)
         cout<<"It is a even number.";
     else
         cout<<"It is a odd number.";
