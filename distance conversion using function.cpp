@@ -18,6 +18,13 @@ void convert(float&d,char&t,char ch)
                 }
                 break;
    }
+
+void convert(float&d,char&t,char ch)
+{
+   switch(ch)
+   {case{
+   torst"message}
+
 }
 int main()
 {
